@@ -1,6 +1,6 @@
 # 20+ Web Projects With Vanilla JavaScript
 
-This is a fork of the main repository for all of the projects of the course.
+This is a fork of the main repository for all of the projects of the a VanillaJS course.
 
 - [Course Link](https://www.udemy.com/course/web-projects-with-vanilla-javascript/?referralCode=F9B7C7FED834F91ADE75)
 - [Course Info Website](https://vanillawebprojects.com)
