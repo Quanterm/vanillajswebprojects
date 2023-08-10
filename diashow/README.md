@@ -6,4 +6,4 @@
 - Function to remove all images at once
 - Second page for view page
 
-## Addons on reques
+## Addons on request
