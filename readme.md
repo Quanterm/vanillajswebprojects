@@ -1,4 +1,4 @@
-# 20+ Web Projects With Vanilla JavaScript
+# Collection of Web Projects With Vanilla JavaScript
 
 This is a fork of the main repository for all of the projects of the a VanillaJS course.
 
