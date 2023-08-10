@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Image Uploader</title>
-	<link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css">
+        <title>Diashow:Editor View</title>
 </head> 
 
-<body>  
-        <h3>Image Uploader </h3>
+<body style="background-color:powderblue;">
+        <h3><center> Editor View </center></h3>
 	<span style='font-size: small; color:green;'>Upload Content Here</span>
 	<input type="file" id="uploadInput">
   	<button onclick="handleUpload()">Upload</button>
@@ -17,15 +20,15 @@
         <button onclick="handlePrev()">Previous Picture</button>
         <br> <br>
 	<span style='font-size: small; color:blue;'>How long should this image hold? </span>
+        <!-- Duration of image -->
         <input type="time"> 
         <button onclick="handleStime()">Set Time</button>
-        <!-- image -->
-        <div width="1920" height="1080" id="imageContainer">
+        <!-- images  -->
+        <div id="imageContainer"></div>
         <source src="store/*" type="png, jpg, gif">
         </div>
         
         <script src="script.js"></script>
-
 
 </body>
 </html>

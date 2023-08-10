@@ -1,4 +1,4 @@
-// Function to handle  upload
+// handle  upload
 function handleUpload() {
   const fileInput = document.getElementById('uploadInput');
   const file = fileInput.files[0];
@@ -14,7 +14,7 @@ function handleUpload() {
   }
 }
 
-// Function to display uploaded image
+// display uploaded image
 function showImage(imageUrl) {
   const imageContainer = document.getElementById('imageContainer');
   const imageElement = document.createElement('img');
@@ -34,18 +34,12 @@ function prevImage(file){
 function deleteImage(file) {
    image.remove();
 }
-	
 
-// to save image 
+// save image 
 function saveImage(file) {
   console.log(store, file.name);
   console.log('png, jpg, gif', file.type);
   //console.log('File size:', file.size);
-}
-
-while (i < 10) {
-  text += "The number is " + i;
-  i++;
 }
 
 // time 
