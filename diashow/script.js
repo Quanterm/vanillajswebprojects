@@ -1,4 +1,4 @@
-// handle  upload
+// handle upload
 function handleUpload() {
   const fileInput = document.getElementById('uploadInput');
   const file = fileInput.files[0];
@@ -23,16 +23,16 @@ function showImage(imageUrl) {
 }
 
 function nextImage(file) {
-	
+  const imageContainer = document.getElementById('image');
 }
 
 function prevImage(file){
-	
+  const imageContainer = document.getElementById('');
 }
 
 // delete image
 function deleteImage(file) {
-   image.remove();
+  const imageContainer = document.getElementById('');
 }
 
 // save image 
