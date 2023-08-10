@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Uploader</title>
+	<link rel="stylesheet" href="style.css">
+</head> 
+
+<body>  
+        <h3>Image Uploader </h3>
+	<span style='font-size: small; color:green;'>Upload Content Here</span>
+	<input type="file" id="uploadInput">
+  	<button onclick="handleUpload()">Upload</button>
+  	<button onclick="handleDelete()">Delete</button>
+  	<button onclick="handleRmAll()">Remove All Images</button>
+        <br> <br>
+        <button onclick="handleNext()">Next Picture</button>
+        <button onclick="handlePrev()">Previous Picture</button>
+        <br> <br>
+	<span style='font-size: small; color:blue;'>How long should this image hold? </span>
+        <input type="time"> 
+        <button onclick="handleStime()">Set Time</button>
+        <!-- image -->
+        <div width="1920" height="1080" id="imageContainer">
+        <source src="store/*" type="png, jpg, gif">
+        </div>
+        
+        <script src="script.js"></script>
+
+
+</body>
+</html>
